@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  background-color: #172041;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "clock";
+  src: url("fonts/E1234.ttf");
+}
+
+.title {
+  color: #f2f2fa;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.score {
+  color: #f74362;
+  background-color: #090100;
+  margin: 10px 0 30px 0;
+  font-size: 12em;
+  padding: 30px 16px 0 16px;
+  width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "clock";
+}
+
+.btn {
+  background-color: #172041;
+  color: #f2f2fa;
+  border: 1px solid #f2f2fa;
+  padding: 10px;
+  font-family: "clock";
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: all 200ms;
+  font-weight: bold;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #f2f2fa;
+  color: #172041;
+}
