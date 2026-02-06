@@ -3,7 +3,8 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 90vh;
-  background-color: #172041;
+  /* background-color: #172041; */
+  background-color: navy;
   font-family: sans-serif;
 }
 
